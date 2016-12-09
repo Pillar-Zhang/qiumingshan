@@ -1,23 +1,22 @@
-nav{
-    height: 100px;
+nav {
+    height: 70px;
     background-color: white;
 }
 
-.main-body{
+.main-body {
     width: 1250px;
     margin: 0 auto;
     padding: 0;
-    ul.AE86{
-        li{
+    ul.AE86 {
+        li {
             float: left;
             margin-left: 30px;
             width: 280px;
             height: 300px;
         }
     }
-
-     ul.wulinghongguang{
-        li{
+    ul.wulinghongguang {
+        li {
             float: left;
             margin-left: 30px;
             width: 380px;
@@ -26,41 +25,41 @@ nav{
     }
 }
 
-
-.tousu{
-height: 73px;
-width: 1200px;
-background-image: url(../image/tousu.png);
-margin-left:30px;
+.tousu {
+    height: 73px;
+    width: 1200px;
+    background-image: url(../image/tousu.png);
+    margin-left: 30px;
 }
 
-.block{
+.block {
     display: block;
 }
 
-.clear{
-    clear:both;
+.clear {
+    clear: both;
 }
-.inline{
+
+.inline {
     display: inline;
 }
 
-.releases{
-height: 48px;
-width: 48px;
-display: inline-block;
-background-image: url(../image/releases.png)
+.releases {
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    background-image: url(../image/releases.png)
 }
 
-.thumb_up{
-height: 48px;
-width: 48px;
-display: inline-block;
-background-image: url(../image/thumb_up.png)
+.thumb_up {
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    background-image: url(../image/thumb_up.png)
 }
 
-card-action{
-    a:first-child{
+card-action {
+    a:first-child {
         width: 50px;
         font-size: 48px;
         margin-right: 50px;
@@ -70,15 +69,17 @@ card-action{
 footer.page-footer {
     margin-top: 20px;
     padding-top: 20px;
-    background-color: black;
+    background-color: #212121;
 }
 
-.hide-on-med-and-down{
-    margin-top:30px;
-
-li{
-    a{
-        color: black;
+.hide-on-med-and-down {
+    li {
+        a {
+            color: black;
+        }
     }
 }
+
+.brand-logo {
+    left: 16.5%
 }
