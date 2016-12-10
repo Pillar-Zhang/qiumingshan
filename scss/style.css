@@ -87,4 +87,22 @@ footer.page-footer {
   padding-left: 0px;
   padding-top: 10px; }
 
+.tousu-details {
+  height: 61px;
+  width: 1200px;
+  background-image: url(../image/tousuxiangqing.png);
+  background-repeat: no-repeat;
+  margin-left: 30px; }
+
+.tousu-details-img {
+  margin: 0 auto;
+  width: 60%; }
+
+hr {
+  height: 5px;
+  background-color: black; }
+
+.pinglun {
+  width: 60%; }
+
 /*# sourceMappingURL=style.css.map */
