@@ -83,3 +83,13 @@ footer.page-footer {
 .brand-logo {
     left: 16.5%
 }
+
+.on-click-tousu {
+    margin: 0 auto;
+    a {
+        background-color: #212121;
+        &:hover {
+            background-color: #616161;
+        }
+    }
+}
