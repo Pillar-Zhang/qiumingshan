@@ -1,6 +1,9 @@
 nav {
   height: 70px;
-  background-color: white; }
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: none; }
 
 .main-body {
   width: 1250px;
@@ -58,7 +61,7 @@ footer.page-footer {
   color: black; }
 
 .brand-logo {
-  left: 16.5%; }
+  left: 1%; }
 
 .on-click-tousu {
   margin: 0 auto; }
@@ -66,5 +69,22 @@ footer.page-footer {
     background-color: #212121; }
     .on-click-tousu a:hover {
       background-color: #616161; }
+
+.complain-body {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.tousuform {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.input-field .btn {
+  background-color: white;
+  box-shadow: none;
+  color: #b3b3b3;
+  padding-left: 0px;
+  padding-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */
