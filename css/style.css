@@ -1,0 +1,130 @@
+nav {
+  height: 70px;
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+.main-body {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0;
+}
+.main-body ul.AE86 li {
+  float: left;
+  margin-left: 30px;
+  width: 280px;
+  height: 300px;
+}
+.main-body ul.wulinghongguang li {
+  float: left;
+  margin-left: 30px;
+  width: 380px;
+  height: 300px;
+}
+
+.tousu {
+  height: 73px;
+  width: 1200px;
+  background-image: url(../image/tousu.png);
+  margin-left: 30px;
+}
+
+.block {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+.inline {
+  display: inline;
+}
+
+.releases {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  background-image: url(../image/releases.png);
+}
+
+.thumb_up {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  background-image: url(../image/thumb_up.png);
+}
+
+card-action a:first-child {
+  width: 50px;
+  font-size: 48px;
+  margin-right: 50px;
+}
+
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #212121;
+}
+
+.hide-on-med-and-down li a {
+  color: black;
+}
+
+.brand-logo {
+  left: 1%;
+}
+
+.on-click-tousu {
+  margin: 0 auto;
+}
+.on-click-tousu a {
+  background-color: #212121;
+}
+.on-click-tousu a:hover {
+  background-color: #616161;
+}
+
+.complain-body {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.tousuform {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.input-field .btn {
+  background-color: white;
+  box-shadow: none;
+  color: #b3b3b3;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+.tousu-details {
+  height: 61px;
+  width: 1200px;
+  background-image: url(../image/tousuxiangqing.png);
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.tousu-details-img {
+  margin: 0 auto;
+  width: 60%;
+}
+
+hr {
+  height: 5px;
+  background-color: black;
+}
+
+.pinglun {
+  width: 60%;
+}

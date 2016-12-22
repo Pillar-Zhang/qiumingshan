@@ -1,0 +1,72 @@
+@import "compass";
+@import 'compass/reset';
+@import 'compass/css3';
+@import 'compass/layout';
+@import "compass/typography";
+@import "compass/utilities";
+
+body {
+  @include border-radius(5px);
+  @include opacity(0.5);
+  @include inline-block;
+}
+
+.footer {
+  @include sticky-footer(54px);
+}
+
+.stretch {
+  @include stretch;
+}
+
+#auto {
+  @include background-size(auto);
+}
+
+#contain {
+  @include background-size(contain);
+}
+
+#cover {
+  @include background-size(cover);
+}
+
+#percent {
+  @include background-size(50% 50%);
+}
+
+#absolute {
+  @include background-size(100px 25px);
+}
+
+table {
+  @include table-scaffolding;
+}
+
+.table {
+  @include table-scaffolding;
+}
+
+a {
+    @include link-colors(#00c, #0cc, #c0c, #ccc, #cc0);
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+ul{
+    li.li{
+        span{
+            font-size: 12px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
